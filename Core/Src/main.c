@@ -87,6 +87,8 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+  const char Compile_date[] = "Compile Date : " __DATE__;
+  const char Compile_time[] = "Compile Time : " __TIME__;
 
   /* USER CODE END 2 */
 
