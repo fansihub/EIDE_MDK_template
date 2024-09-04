@@ -738,13 +738,13 @@ ARM Macro Assembler    Page 12
               00000400 
               00000200 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=eide_mdk_template\startup_stm32f401xc.d -oeide_mdk_template\sta
-rtup_stm32f401xc.o -IC:\Users\fansi\Desktop\EIDE_MDK_template\MDK-ARM\RTE -ID:\
-ProgramFiles\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -ID:\ProgramFiles
-\Keil_v5\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Incl
-ude --predefine="__UVISION_VERSION SETA 514" --predefine="_RTE_ SETA 1" --prede
-fine="STM32F401xC SETA 1" --list=startup_stm32f401xc.lst startup_stm32f401xc.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
+interwork --depend=eide_mdk_template\startup_stm32f401xc.d -oeide_mdk_template\
+startup_stm32f401xc.o -I.\RTE\_EIDE_MDK_template -ID:\ProgramFiles\Keil_v5\ARM\
+Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include -ID:\ProgramFiles\Keil_v5\ARM\Packs\Ke
+il\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="
+__UVISION_VERSION SETA 540" --predefine="STM32F401xC SETA 1" --predefine="_RTE_
+ SETA 1" --list=startup_stm32f401xc.lst startup_stm32f401xc.s
 
 
 
